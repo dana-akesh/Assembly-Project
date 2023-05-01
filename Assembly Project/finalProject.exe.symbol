@@ -1,0 +1,55 @@
+< THE SYMBOL TABLE >  finalProject.exe  --  emu8086 assembler version: 4.08 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+DATA                     	00000     	-5        	SEGMENT   	(ITSELF)  
+MSGENTERN                	00000     	1         	VAR       	data      
+MSGENTERNUMBER           	0000A     	1         	VAR       	data      
+MSGENTERSIZE             	00019     	1         	VAR       	data      
+MGINVALIDLENGTH          	0003F     	1         	VAR       	data      
+MGINVALIDCHAR            	0006E     	1         	VAR       	data      
+MSGSUM                   	00093     	1         	VAR       	data      
+MSGAVG                   	0009A     	1         	VAR       	data      
+N                        	000A1     	1         	VAR       	data      
+LENGTH                   	000A2     	1         	VAR       	data      
+READSTR                  	000A3     	1         	VAR       	data      
+NUMBER                   	0016C     	1         	VAR       	data      
+SUM                      	00554     	1         	VAR       	data      
+AVG                      	0061C     	1         	VAR       	data      
+TEMP                     	006E4     	1         	VAR       	data      
+CODE                     	0007B     	-5        	SEGMENT   	(ITSELF)  
+PRINTNEWLINE             	00024     	-1        	NEAR      	code      
+GETNFROMUSER             	0002F     	-1        	NEAR      	code      
+ENTERN                   	0002F     	-1        	LABEL     	code      
+GETLENGTHFROMUSER        	0004B     	-1        	NEAR      	code      
+ENTERLENGTH              	0004B     	-1        	LABEL     	code      
+GETINPUTFROMUSER         	00086     	-1        	NEAR      	code      
+INPUTLOOP                	0008C     	-1        	LABEL     	code      
+RETAKEINPUT              	0008D     	-1        	LABEL     	code      
+LENGTHCHECKED            	000B4     	-1        	LABEL     	code      
+CHARCHECK                	000BB     	-1        	LABEL     	code      
+INVALIDCHAR              	000CA     	-1        	LABEL     	code      
+CHARCHECKED              	000D3     	-1        	LABEL     	code      
+STARTMOVING              	00113     	-1        	LABEL     	code      
+ENDMOVING                	0012F     	-1        	LABEL     	code      
+CALCULATESUM             	00137     	-1        	NEAR      	code      
+STARTSUM                 	0013D     	-1        	LABEL     	code      
+SUMCURRENT               	0016E     	-1        	LABEL     	code      
+SKIPCARRY                	001A4     	-1        	LABEL     	code      
+SKIPCARRY2               	001B4     	-1        	LABEL     	code      
+SKIPCARRY3               	001E7     	-1        	LABEL     	code      
+PRINTSUM                 	00201     	-1        	NEAR      	code      
+SKIPZEROS                	00214     	-1        	LABEL     	code      
+STARTPRINTINGSUM         	00220     	-1        	LABEL     	code      
+CALCULATEAVG             	00248     	-1        	NEAR      	code      
+ADJUSTSUM                	00255     	-1        	LABEL     	code      
+AVERAGE                  	00287     	-1        	LABEL     	code      
+DIVTHIS                  	002A7     	-1        	LABEL     	code      
+PRINTAVG                 	002B8     	-1        	NEAR      	code      
+SKIPZEROSFORAVG          	002C2     	-1        	LABEL     	code      
+STARTPRINTINGAVG         	002CC     	-1        	LABEL     	code      
+AVGPRINTED               	002DD     	-1        	LABEL     	code      
+===================================================================================================
+[ 5/1/2023  --  3:06:43 PM ] 
+< END >
+ 
